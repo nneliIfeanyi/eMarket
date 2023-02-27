@@ -1,0 +1,90 @@
+
+.body{
+	height: 100vh;
+	background-image: url(../img/pexel.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow-y: scroll;
+}
+
+.body2{
+   background: linear-gradient(#e9941d, #e8781d, rgba(0, 0, 0, .7));
+}
+
+.shadow{
+  box-shadow: inset 20px 80px 60px black, inset -10px -80px 60px black;
+}
+
+.login_div{
+
+	margin: auto;
+	width: 80%;
+	background: rgba(0, 0, 0, 0.7);
+	margin-top: 50px;
+	border-radius: 4%;
+
+}
+
+.commerce ul{
+
+	font-weight: bold;
+}
+
+/**/
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 70px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(10,0,10,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content{
+  background: linear-gradient(#e9941d, #e8781d, rgba(0, 0, 0, .7));
+  margin: auto;
+  padding: 0px;
+  border: .5px solid #fff;
+  width: 90%;
+  z-index: 3;
+}
+
+/* The Close Button */
+.close {
+  color: #eee;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  margin: -9px 3px 0 0;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Close Button */
+.closes {
+  color: #aaaaaa;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closes:hover,
+.closes:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
